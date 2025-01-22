@@ -40,7 +40,7 @@ rl.question('Digite o capital inicial (R$): ', (capital) => {
         console.log(`\nMontante acumulado após ${periodoNumerico} períodos: R$ ${resultado}`);
       }
 
-      console.log('Obrigado por usar o sistema de cálculo de juros compostos!');
+      console.log('Obrigado por usar o sistema de cálculo de juros compostos');
       rl.close();
     });
   });
