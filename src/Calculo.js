@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 // Função para calcular juros compostos
 function calcularJurosCompostos(capital, taxa, periodo) {
   if (taxa < 0 || periodo < 0) {
-    return "Erro: A taxa de juros e o número de períodos devem ser valores positivos.";
+    return "Erro: A taxa de juros e o número de períodos devem ser valores positivos.Tente novamente"
   }
   
   const montante = capital * Math.pow((1 + taxa / 100), periodo);
